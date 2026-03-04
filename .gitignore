@@ -1,0 +1,12 @@
+# Ignore local environment file with secrets
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Build folders
+build/
+dist/
+
+macros/
