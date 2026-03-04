@@ -8,7 +8,7 @@ py -m pip install -r requirements.txt
 if errorlevel 1 goto :error
 
 echo [2/3] Gerando executavel...
-py -m PyInstaller --noconfirm --clean --windowed --onefile --name MacroPilot --collect-all customtkinter --collect-all pynput --hidden-import=models --hidden-import=recorder --hidden-import=player --hidden-import=storage --hidden-import=utils app.py
+py -m PyInstaller --noconfirm --clean --windowed --onefile --name MacroPilot --collect-all customtkinter --collect-all pynput --hidden-import=models --hidden-import=recorder --hidden-import=player --hidden-import=storage --hidden-import=utils src\app.py
 if errorlevel 1 goto :error
 
 echo [3/3] Build concluido.
