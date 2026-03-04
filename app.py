@@ -22,9 +22,9 @@ class MacroPilotApp(ctk.CTk):
     def __init__(self) -> None:
         super().__init__()
 
-        self.app_version = "alfa 1.0"
+        self.app_version = "alfa 0.1.0"
 
-        self.title(f"MacroPilot {self.app_version}")
+        self.title(f"MacroPilot")
         self.geometry("980x620")
         self.minsize(900, 560)
 
