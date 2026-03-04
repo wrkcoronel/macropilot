@@ -25,7 +25,7 @@ class MacroPilotApp(ctk.CTk):
         self.app_version = "alfa 0.1.0"
 
         self.title(f"MacroPilot")
-        self.geometry("980x620")
+        self.geometry("980x720")
         self.minsize(900, 560)
 
         base_dir = Path(__file__).resolve().parent
